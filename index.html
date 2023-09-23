@@ -1,15 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Josh Woods portfolio</title>
-</head>
-<body>
-    <header></header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Josh Woods - WDD 230 - Web Frontend Development</title>
+    <meta
+      name="description"
+      content="WDD 230 - Web Frontend Development - Josh Woods course assignent portal"
+    />
+    <meta name="author" content="Josh Woods" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mooli&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+  </head>
+  <body>
+    <header>
+      <img src="images/personalPicture.jpg" alt="Picture of me" />
+      <h1>Josh Woods</h1>
+    </header>
+    <nav>
+      <ul class="heading">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Chamber</a></li>
+        <li><a href="#">Site Plan</a></li>
+        <li><a href="#">Form</a></li>
+      </ul>
+    </nav>
     <main>
-        <h1>Josh Woods portfolio</h1>
+      <h2>WDD 230: Web Frontend Development</h2>
+      <section class="card">
+        <h3>Learning Activities</h3>
+        <ul>
+          <li>
+            <a href="#">Lesson 1:</a>
+            <a href="#">Lesson 2:</a>
+            <a href="#">Lesson 3:</a>
+            <a href="#">Lesson 4:</a>
+            <a href="#">Lesson 5:</a>
+            <a href="#">Lesson 6:</a>
+            <a href="#">Lesson 7:</a>
+          </li>
+        </ul>
+      </section>
+      <section class="card">
+        <h3>Information</h3>
+        <p>Rexburg, ID</p>
+        <p>&#9748; 45&deg;F - Dark & Cloudy</p>
+        <p>Number of visits: 3</p>
+      </section>
     </main>
-    <footer></footer>
-</body>
-</html> 
+    <footer>
+      <p>
+        <span id="year"></span>
+        Josh Woods USA
+      </p>
+      <p>
+        <span id="lastModified"></span>
+      </p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+  </body>
+</html>
