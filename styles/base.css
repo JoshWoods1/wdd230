@@ -26,7 +26,7 @@ ul {
 
 nav li a {
   background-color: #38686a;
-  color: #a3b4a2;
+  color: white;
   text-decoration: none;
   display: block;
   height: 1rem;
@@ -44,8 +44,8 @@ li a {
 }
 
 li a:hover {
-  background-color: #9a8c98;
-  color: #22223b;
+  background-color: #187795;
+  color: whitesmoke;
 }
 .active {
   background-color: #9a8c98;
