@@ -27,7 +27,7 @@ ul {
 nav li a {
   background-color: #38686a;
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
   display: block;
   height: 1rem;
   padding: 1rem;
@@ -35,14 +35,16 @@ nav li a {
   justify-items: center;
 }
 
-li a {
+li a{
   text-decoration: none;
   color: #4a4e69;
   display: block;
   text-align: left;
   padding-left: 1rem;
 }
-
+ul li p {
+  display: inline;
+}
 li a:hover {
   background-color: #187795;
   color: whitesmoke;
