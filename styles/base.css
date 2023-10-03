@@ -27,7 +27,7 @@ ul {
 nav li a {
   background-color: #38686a;
   color: white;
-  text-decoration: underline;
+  text-decoration: none;
   display: block;
   height: 1rem;
   padding: 1rem;
