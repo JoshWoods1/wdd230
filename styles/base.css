@@ -16,6 +16,23 @@ img {
   height: 100px;
   padding-right: 20px;
 }
+.hero img {
+  width: 100%;
+  height: auto;
+}
+.hero {
+  position: relative;
+}
+.herolabel {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+}
 
 #mode {
 	position: absolute;
@@ -113,6 +130,11 @@ h3 {
   border-radius: 5px;
   background-color: #cdc6ae;
   box-shadow: 2px 2px 5px #187795;
+}
+
+iframe {
+  height: auto;
+  width: 100%;
 }
 
 /* Footer */
