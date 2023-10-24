@@ -79,7 +79,7 @@ nav li a {
   background-color: #38686a;
   color: white;
   text-decoration: none;
-  display: inline;
+  display: block;
   height: 1rem;
   padding: 1rem;
   text-align: center;
