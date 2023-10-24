@@ -16,44 +16,69 @@
       property="og:image"
       content="https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F2%2F22%2FHostess_House_Lampasas_Texas.jpg&tbnid=QX4DatubXZrFFM&vet=12ahUKEwj6n7yw3uWBAxURFN4AHWOkCu0QMygFegQIARB3..i&imgrefurl=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AHostess_House_Lampasas_Texas.jpg&docid=vVDkMUYTp1G5IM&w=2380&h=1339&q=lampasas%20tx&hl=en&ved=2ahUKEwj6n7yw3uWBAxURFN4AHWOkCu0QMygFegQIARB3"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
-    <link rel="stylesheet" href="images/lampasasFavicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <link rel="stylesheet" href="images/lampasasFavicon.ico" />
   </head>
   <body>
     <header>
-      <h1>Lampasas</h1>
-      <h1>Chamber of Commerce</h1>
+      <h1>Lampasas Chamber of Commerce</h1>
+      <nav class="navbar">
+        <ul class="nav-menu">
+          <a href="discover.html" class="navLink">Discover</a>
+          <a href="#" class="navLink">Placeholder</a>
+          <a href="#" class="navLink">Placeholder</a>
+          <a href="#" class="navLink">Placeholder</a>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+      </nav>
     </header>
-    <nav>
-      <a href="discover.html">Discover</a>
-      <a href="#">Placeholder</a>
-      <a href="#">Placeholder</a>
-      <a href="#">Placeholder</a>
-    </nav>
     <main>
       <section class="container">
-        <img class="hero" src="images/DowntownLampasas.jpg" alt="Historic Lampasas Building">
+        <img
+          class="hero"
+          src="images/DowntownLampasas.jpg"
+          alt="Historic Lampasas Building"
+        />
         <button class="btn">Join Our Team!</button>
       </section>
-      <section>
+      <section class="card">
         <h3>Current Events</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+          praesentium labore maiores perspiciatis suscipit ipsam corrupti
+          ducimus consequatur beatae nisi, vero id nesciunt earum ab! Corrupti
+          tempore in veritatis fuga.
+        </p>
       </section>
-      <section>
+      <section class="card">
         <h3>Weather</h3>
+        <p>Sunny and 75 &deg;</p>
       </section>
-      <section>
+      <section id="member">
         <h3>Member Spotlights</h3>
+        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi velit, esse quia perspiciatis facere sint cum molestiae, numquam illo in quasi necessitatibus eum, provident commodi corrupti ipsam! Accusamus, alias ex.</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero illo vitae deleniti exercitationem assumenda eius dolor id, neque veniam non iste sapiente reprehenderit perferendis magnam ratione ullam provident consectetur autem.</div>
       </section>
     </main>
     <footer>
-      <p id="year">Josh Woods - Chamber Project for WDD 230</p>
+      <p>Josh Woods - Chamber Project for WDD 230</p>
+      <p id="year"></p>
       <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDate.js"></script>
+    <script src="scripts/navBar.js"></script>
   </body>
 </html>

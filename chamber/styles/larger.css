@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+
+    header {
+        display: flex;
+        /* justify-content: space-between;
+        align-items: center;  */
+    }
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .card {
+        margin: 0 10px; /* Add margin between the cards */
+        background-color: #3c6e71;
+        color: #d9d9d9;
+    }
+    .nav-menu {
+        position: static; /* Remove the fixed positioning */
+        top: auto;
+        left: auto;
+        background-color: transparent;
+        flex-direction: row;
+        width: auto;
+    }
+
+    .hamburger {
+        display: none;
+        cursor: pointer;
+    }
+    
+}
