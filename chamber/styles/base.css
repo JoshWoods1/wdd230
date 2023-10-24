@@ -29,6 +29,9 @@ header h1 {
     margin: 0;
     color: #b9b8b9;
 }
+li {
+    list-style: none;
+}
 
 .navLink {
     transition: 0.7s ease;
