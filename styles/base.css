@@ -132,6 +132,21 @@ h3 {
   box-shadow: 2px 2px 5px #187795;
 }
 
+.lesson-container {
+  display: flex;
+  align-items: center;
+}
+
+.lesson-container p {
+  margin-right: 10px; /* Adjust the margin as needed */
+  color: #4a4e69;
+  margin: 0;
+}
+.lesson-container a:hover {
+  background-color: #9a8c98;
+  color: #22223b;
+}
+
 iframe {
   height: auto;
   width: 100%;

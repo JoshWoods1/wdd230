@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Josh Woods - WDD 230 - Web Frontend Development</title>
     <meta
@@ -46,15 +46,12 @@
       <div class="hero">
         <picture>
           <source srcset="images/hero-small.webp" media="(max-width: 500px)" />
-          <source
-          srcset="images/hero-medium.webp"
-          media="(max-width: 960px)"
-          />
+          <source srcset="images/hero-medium.webp" media="(max-width: 960px)" />
           <img
-          src="images/hero-large.webp"
-          alt="large image"
-          width="1500"
-          height="750"
+            src="images/hero-large.webp"
+            alt="large image"
+            width="1500"
+            height="750"
           />
         </picture>
         <div class="herolabel">
@@ -66,18 +63,39 @@
         <h3>Learning Activities</h3>
         <ul>
           <li>
-            <a href="#"><p>Lesson 1:</p></a>
-            <a href="https://codepen.io/JoshWoods1/pen/NWezpZR"
-              >Lesson 2: CodePen Example</a>
-            <a>Lesson 3: </a>
-            <a href="lesson3/images/landscape.webp">WebP</a>
-            <a href="lesson3/lazyload.html">Lazy Loading</a>
-            <a href="lesson3/responsive_images.html">Responsive Images</a>
-            <a href="lesson3/bom.html">Local Storage</a>
-            <a href="#">Lesson 4:</a>
-            <a href="#">Lesson 5:</a>
-            <a href="#">Lesson 6:</a>
-            <a href="#">Lesson 7:</a>
+            <div class="lesson-container">
+              <p>Lesson 1:</p>
+              <a href="#"></a>
+            </div>
+            <div class="lesson-container">
+              <p>Lesson 2:</p>
+              <a href="https://codepen.io/JoshWoods1/pen/NWezpZR"
+                >CodePen Example</a
+              >
+            </div>
+            <div class="lesson-container">
+              <p>Lesson 3:</p>
+              <a href="lesson3/images/landscape.webp">WebP</a>
+              <a href="lesson3/lazyload.html">Lazy Loading</a>
+              <a href="lesson3/responsive_images.html">Responsive Images</a>
+              <a href="lesson3/bom.html">Local Storage</a>
+            </div>
+            <div class="lesson-container">
+              <p>Lesson 4:</p>
+              <a href="https://codepen.io/JoshWoods1/pen/WNPbPyB"
+                >Pseudo Selectors</a
+              >
+              <a href="lesson4/images/CombinatorScreenshot.png">Combinators</a>
+            </div>
+            <div class="lesson-container">
+            <p>Lesson 5:</p>
+          </div>
+          <div class="lesson-container">
+            <p>Lesson 6:</p>
+          </div>
+          <div class="lesson-container">
+            <p>Lesson 7:</p>
+          </div>
           </li>
         </ul>
       </section>
@@ -85,12 +103,20 @@
         <h3>Information</h3>
         <p>Rexburg, ID</p>
         <p>&#9748; 45&deg;F - Dark & Cloudy</p>
-        <p>Number of visits: <span  id="numVisits"></span></p>
+        <p>Number of visits: <span id="numVisits"></span></p>
       </section>
       <section id="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d77454.41926825514!2d-97.9559357560995!3d31.11212922822568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1697555817909!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d77454.41926825514!2d-97.9559357560995!3d31.11212922822568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1697555817909!5m2!1sen!2sus"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </section>
-      </main>
+    </main>
     <footer>
       <p>
         <span id="year"></span>
