@@ -145,6 +145,7 @@ h3 {
 .lesson-container a:hover {
   background-color: #9a8c98;
   color: #22223b;
+  text-decoration: underline;
 }
 
 iframe {
