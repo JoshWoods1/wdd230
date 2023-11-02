@@ -7,7 +7,7 @@
     <meta name="description" content="WDD-230 Chamber Home Page" />
     <meta name="author" content="Josh Woods" />
     <meta property="og:title" content="Chamber Home Page" />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="Website" />
     <meta
       property="og:url"
       content="joshwoods1.github.io/wdd230/chamber/index.html"
@@ -16,26 +16,60 @@
       property="og:image"
       content="https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F2%2F22%2FHostess_House_Lampasas_Texas.jpg&tbnid=QX4DatubXZrFFM&vet=12ahUKEwj6n7yw3uWBAxURFN4AHWOkCu0QMygFegQIARB3..i&imgrefurl=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AHostess_House_Lampasas_Texas.jpg&docid=vVDkMUYTp1G5IM&w=2380&h=1339&q=lampasas%20tx&hl=en&ved=2ahUKEwj6n7yw3uWBAxURFN4AHWOkCu0QMygFegQIARB3"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.cssS">
-    <link rel="stylesheet" href="lampasasFavicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <link rel="lampasasFavicon" href="images/lampasasFavicon.ico" />
   </head>
   <body>
     <header>
-      <h1>Lampasas</h1>
-      <h2>Chamber of Commerce</h2>
+      <h1>Lampasas Chamber of Commerce</h1>
+      <nav class="navbar">
+        <ul class="nav-menu">
+          <li><a href="discover.html" class="navLink">Discover</a></li>
+          <li><a href="#" class="navLink">Placeholder</a></li>
+          <li><a href="#" class="navLink">Placeholder</a></li>
+          <li><a href="#" class="navLink">Placeholder</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+      </nav>
     </header>
-    <main>
-      
+    <main id="discover">
+      <aside class="sidebar">
+        <h2>Events</h2>
+          <p>Squared Straight</p>
+          <p>Pumking Patchs</p>
+
+          <h2>Attractions</h2>
+          <p>Storm's Drive-In</p>
+          <p>Lampasas River</p>
+      </aside>
+      <div class="main-content">
+        <img src="https://placebear.com/350/360" alt="" loading="lazy" width="350" height="360">
+        <img src="https://placebear.com/351/360" alt="" loading="lazy" width="350" height="360">
+        <img src="https://placebear.com/350/362" alt="" loading="lazy" width="350" height="360">
+        <img src="https://placebear.com/359/360" alt="" loading="lazy" width="350" height="360">
+        <img src="https://placebear.com/355/360" alt="" loading="lazy" width="350" height="360">
+        <img src="https://placebear.com/357/360" alt="" loading="lazy" width="350" height="360">
+      </div>
     </main>
     <footer>
-      <p id="year">Josh Woods - Chamber Project for WDD 230</p>
+      <p>Josh Woods - Chamber Project for WDD 230</p>
+      <p id="year"></p>
       <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDate.js"></script>
+    <script src="scripts/navBar.js"></script>
   </body>
 </html>

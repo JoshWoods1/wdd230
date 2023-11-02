@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 750px) {
 
     header {
         display: flex;
@@ -7,8 +7,17 @@
     }
     main {
         display: grid;
-        grid-template-columns: 2fr 1fr;
     }
+    
+    #home {
+        grid-template-columns: 2fr 1fr;
+
+    }
+    
+    #discover {
+        grid-template-columns: 1fr 2fr ;
+    }
+
     .card {
         margin: 0 10px; /* Add margin between the cards */
         background-color: #3c6e71;
@@ -28,4 +37,17 @@
         cursor: pointer;
     }
     
+    .sidebar {
+        width: 25%; /* Set the width of the sidebar */
+        position: sticky;
+        top: 10px;
+        height: calc(100vh - 20px); /* Make the sidebar full height minus 20px for padding */
+        /* display: flex; */
+        margin: 0 auto;
+    }
+
+    .main-content {
+        width: 75%; /* Set the width of the main content */
+        margin: 0 auto;
+    }
 }

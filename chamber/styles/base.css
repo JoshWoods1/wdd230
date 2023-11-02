@@ -135,6 +135,17 @@ nav a {
     /* width: 50%;  */
      /* gap: 10px;  */
 }  
+main {
+    display: block; /* Display main content in a single column */
+}
+
+.sidebar {
+    width: 100%; /* Make the sidebar full width in the mobile view */
+    position: static; /* Remove fixed positioning */
+    top: auto;
+    height: auto;
+}
+
 
 footer {
     background-color: #284b63;
