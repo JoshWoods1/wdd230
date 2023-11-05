@@ -7,7 +7,7 @@
     <meta name="description" content="WDD-230 Chamber Home Page" />
     <meta name="author" content="Josh Woods" />
     <meta property="og:title" content="Chamber Home Page" />
-    <meta property="og:type" content="website"/>
+    <meta property="og:type" content="website" />
     <meta
       property="og:url"
       content="joshwoods1.github.io/wdd230/chamber/index.html"
@@ -25,7 +25,8 @@
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/larger.css" />
-    <link rel="icon" href="images/lampasasFavicon.ico" type="image/x-icon" />  </head>
+    <link rel="icon" href="images/lampasasFavicon.ico" type="image/x-icon" />
+  </head>
   <body>
     <header>
       <h1>Lampasas Chamber of Commerce</h1>
@@ -37,62 +38,74 @@
           <li><a href="#" class="navLink">Placeholder</a></li>
         </ul>
         <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-
       </nav>
     </header>
     <main>
-        <form action="thankyou.html" method="get">
-      <label for="firstName">Applicant's First Name*
-        <input type="text" id="firstName" name="firstName" required />
-      </label>
-      <label for="lastName">Applicant's Last Name*
-        <input type="text" id="lastName" name="lastName" required />
-      </label>
-      <label for="title">Applicant's Title or Position*
-        <input type="text" id="title" name="title" pattern="[A-Za-z -]{7,}" />
-      </label>
-      <label for="email">Email Address*
-        <input type="email" id="email" name="email" required placeholder="example@example.com" />
-      </label>
-      <label for="mobile">Mobile Phone Number*
-        <input type="tel" id="mobile" name="mobile" required />
-      </label>
-      <label for="orgName">Business/Organization Name*
-        <input type="text" id="orgName" name="orgName" required />
-      </label>
-      <label>Membership Level*</label>
-<div>
-  <label>
-    <input type="radio" name="membershipLevel" value="NP" checked>
-    NP Membership (Free)
-  </label>
-  <label>
-    <input type="radio" name="membershipLevel" value="Bronze">
-    Bronze Membership
-  </label>
-  <label>
-    <input type="radio" name="membershipLevel" value="Silver">
-    Silver Membership
-  </label>
-  <label>
-    <input type="radio" name="membershipLevel" value="Gold">
-    Gold Membership
-  </label>
-</div>
+      <form action="thankyou.html" method="get">
+        <label for="firstName"
+          >Applicant's First Name*
+          <input type="text" id="firstName" name="firstName" required />
+        </label>
+        <label for="lastName"
+          >Applicant's Last Name*
+          <input type="text" id="lastName" name="lastName" required />
+        </label>
+        <label for="title"
+          >Applicant's Title or Position*
+          <input type="text" id="title" name="title" pattern="[A-Za-z -]{7,}" />
+        </label>
+        <label for="email"
+          >Email Address*
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="example@example.com"
+          />
+        </label>
+        <label for="mobile"
+          >Mobile Phone Number*
+          <input type="tel" id="mobile" name="mobile" required />
+        </label>
+        <label for="orgName"
+          >Business/Organization Name*
+          <input type="text" id="orgName" name="orgName" required />
+        </label>
+        <label>Membership Level*</label>
+        <div>
+          <label>
+            <input type="radio" name="membershipLevel" value="NP" checked />
+            NP Membership (Free)
+          </label>
+          <label>
+            <input type="radio" name="membershipLevel" value="Bronze" />
+            Bronze Membership
+          </label>
+          <label>
+            <input type="radio" name="membershipLevel" value="Silver" />
+            Silver Membership
+          </label>
+          <label>
+            <input type="radio" name="membershipLevel" value="Gold" />
+            Gold Membership
+          </label>
+        </div>
 
-      <label for="description">Business/Organization's Description
-        <textarea id="description" name="description"></textarea>
-      </label>
-      <input type="hidden" id="timestamp" name="timestamp" value="" />
-      <input type="submit" value="Submit Application" />
-    </form>
-    <div class="membership-benefits">
-      <!-- Display membership level benefits here -->
-    </div>
+        <label for="description"
+          >Business/Organization's Description
+          <textarea id="description" name="description"></textarea>
+        </label>
+        <input type="hidden" id="timestamp" name="timestamp" value="" />
+        <input type="submit" value="Submit Application" />
+      </form>
+      <div class="membership-benefits">
+        <!-- Display membership level benefits here -->
+      </div>
     </main>
     <footer>
       <p>Josh Woods - Chamber Project for WDD 230</p>
