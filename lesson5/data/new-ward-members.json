@@ -1,0 +1,38 @@
+{
+  "lastName": "Woods",
+  "dateMovedIn": "2023-10-07",
+  "numberOfPeople": 6,
+  "visitedByBishopric": true,
+  "familyMembers": [
+    {
+      "name": "Josh",
+      "gender": "Male",
+      "birthDate": "2001-04-02"
+    },
+    {
+      "name": "Cody",
+      "gender": "Male",
+      "birthDate": "2003-03-30"
+    },
+    {
+      "name": "Ryan",
+      "gender": "Male",
+      "birthDate": "1998-04-09"
+    },
+    {
+      "name": "Charlie",
+      "gender": "Male",
+      "birthDate": "1996-10-14"
+    },
+    {
+      "name": "Charles",
+      "gender": "Male",
+      "birthDate": "1974-03-22"
+    },
+    {
+      "name": "Ashley",
+      "gender": "Female",
+      "birthDate": "1976-04-19"
+    }
+  ]
+}
