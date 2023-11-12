@@ -1,0 +1,27 @@
+body {
+    background-color: #ccc;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+section {
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+#cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
