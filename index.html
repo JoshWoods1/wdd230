@@ -66,7 +66,8 @@
           <li>
             <div class="lesson-container">
               <p>Lesson 1:</p>
-              <a href="#"></a>
+              <a href="lesson1/holygrail.html">Holy Grail</a>
+              <a href="lesson1/media-query.html">Media Query</a>
             </div>
             <div class="lesson-container">
               <p>Lesson 2:</p>
@@ -106,10 +107,14 @@
           </li>
         </ul>
       </section>
-      <section class="card">
+      <section  class="card">
         <h3>Information</h3>
         <p>Rexburg, ID</p>
-        <p>&#9748; 45&deg;F - Dark & Cloudy</p>
+        <p>Current Weather: <span id="current-temp"></span></p>
+        <figure>
+          <img id="weather-icon" src="" alt="" />
+          <figcaption></figcaption>
+        </figure>
         <p>Number of visits: <span id="numVisits"></span></p>
       </section>
       <section id="map">
@@ -133,6 +138,8 @@
         <span id="lastModified"></span>
       </p>
     </footer>
+    <script src="scripts/links.js"></script>
+    <script src="scripts/weather.js"></script>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/numVisits.js"></script>
   </body>

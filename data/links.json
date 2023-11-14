@@ -1,0 +1,89 @@
+{
+    "weeks": [
+        {
+            "week": "Lesson 1",
+            "links": [
+                {
+                    "url": "lesson1/holygrail.html",
+                    "title": "HG Layout"
+                },
+                {
+                    "url": "lesson1/media-query.html",
+                    "title": "Media Query"
+                }
+            ]
+        },
+        {
+            "week": "Lesson 2",
+            "links": [
+                {
+                    "url": "https://codepen.io/JoshWoods1/pen/NWezpZR",
+                    "title": "CodePen Example"
+                }
+            ]
+        },
+        {
+            "week": "Lesson 3",
+            "links": [
+                {
+                    "url": "lesson3/images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "lesson3/lazyload.html",
+                    "title": "Lazy Loading"
+                },
+                {
+                    "url": "lesson3/responsive_images.html",
+                    "title": "Responsive Images"
+                },
+                {
+                    "url":"lesson3/bom.html",
+                    "title": "Local Storage"
+                }
+            ]
+        },
+        {
+            "week": "Lesson 4",
+            "links": [
+                {
+                    "url": "https://codepen.io/JoshWoods1/pen/WNPbPyB",
+                    "title": "Pseudo Selectors"
+                },
+                {
+                    "url": "lesson4/images/CombinatorScreenshot.png",
+                    "title": "Combinators"
+                },
+                {
+                    "url": "lesson4/tablebuild.html",
+                    "title": "HTML Tables"
+                },
+                {
+                    "url": "lesson4/form-start/index.html",
+                    "title": "HTML Forms"
+                }
+            ]
+        },
+        {
+            "week": "Lesson 5",
+            "links": [
+                {
+                    "url": "https://codepen.io/JoshWoods1/pen/eYxgwve",
+                    "title": "Pseudo Elements"
+                },
+                {
+                    "url": "lesson5/data/new-ward-members.json",
+                    "title": "JSON File"
+                },
+                {
+                    "url": "lesson5/prophets.html",
+                    "title": "Prophets"
+                },
+                {
+                    "url": "lesson5/weather.html",
+                    "title": "Weather API"
+                }
+            ]
+        }
+    ]
+}
