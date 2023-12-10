@@ -79,8 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <h4>${member.name}</h4>
                 <p>${member.description}</p>
                 <a href="${member.website}" target="_blank">Visit Website</a>
-            </div>
-        `;
+            </div>`;
         spotlightContainer.appendChild(spotlightElement);
     });
 });
