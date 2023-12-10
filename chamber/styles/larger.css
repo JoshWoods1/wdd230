@@ -50,4 +50,25 @@
         width: 75%; /* Set the width of the main content */
         margin: 0 auto;
     }
+
+    .grid-view {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .list-view {
+        display: block; /* Default display for list view */
+    }
+
+    #members {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+ 
+
+
 }

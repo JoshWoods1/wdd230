@@ -15,6 +15,10 @@ header {
     text-align: left;
     position: relative;
 }
+#meetGreetBanner {
+    position: sticky;
+    top: auto;
+}
 
 .navbar {
     min-height: 50px;
@@ -191,8 +195,35 @@ form {
     border-radius: 5px;
   }
   
-  /* Membership benefits */
-  .membership-benefits {
-    /* Style and layout for displaying membership benefits */
-  }
   
+    /* Style and layout for displaying membership benefits *
+    
+    
+    /* Directory Page */
+
+    .member-card {
+        border: 1px solid #ccc;
+        padding: 15px;
+        margin: 15px;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .member-card img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+    
+    /* Styles for member list items */
+    .member-list-item {
+        border: 1px solid #ccc;
+        padding: 15px;
+        margin: 15px;
+        text-align: left;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }

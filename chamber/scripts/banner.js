@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <button onclick="closeBanner()">Close</button>
         </div>
       `;
-      document.body.appendChild(banner);
+      document.body.insertBefore(banner, document.body.firstChild);
     }
   });
   
