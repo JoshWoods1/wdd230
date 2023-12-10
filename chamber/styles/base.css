@@ -227,3 +227,16 @@ form {
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
+
+    /* Add this CSS to your existing stylesheet or create a new one */
+.spotlight-item {
+    text-align: center;
+}
+
+.spotlight-image {
+    max-width: 100%; /* Ensure images don't exceed their container */
+    height: auto; /* Maintain aspect ratio */
+    width: 200px; /* Set the desired width for the images */
+    border-radius: 8px; /* Add rounded corners if needed */
+    margin-bottom: 10px; /* Add space between images and other content */
+}

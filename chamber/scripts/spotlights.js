@@ -1,7 +1,4 @@
-// Add this code to your spotlights.js file
-
 document.addEventListener("DOMContentLoaded", function () {
-    // Replace this mock data with your actual JSON data
     const jsonData = {
         "members": [
             {
@@ -70,19 +67,15 @@ document.addEventListener("DOMContentLoaded", function () {
           ]
     };
 
-    // Filter members with gold or silver membership levels
     const qualifiedMembers = jsonData.members.filter(member => member.membershipLevel === "Gold" || member.membershipLevel === "Silver");
-
-    // Randomly select two to three members for spotlights
     const spotlights = getRandomMembers(qualifiedMembers, 2, 3);
 
-    // Display spotlights on the page
     const spotlightContainer = document.getElementById("spotlight-container");
     spotlights.forEach(member => {
         const spotlightElement = document.createElement("div");
         spotlightElement.innerHTML = `
             <div class="spotlight-item">
-                <img src="${member.image}" alt="${member.name}" />
+                <img class="spotlight-image" src="images/${member.image}" alt="${member.name}" />
                 <h4>${member.name}</h4>
                 <p>${member.description}</p>
                 <a href="${member.website}" target="_blank">Visit Website</a>
@@ -92,7 +85,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-// Function to randomly select members
 function getRandomMembers(members, minCount, maxCount) {
     const count = Math.floor(Math.random() * (maxCount - minCount + 1)) + minCount;
     const shuffledMembers = members.sort(() => 0.5 - Math.random());
