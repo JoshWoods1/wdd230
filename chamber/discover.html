@@ -1,69 +1,74 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lampasas Chamber of Commerce website</title>
-    <meta name="description" content="WDD-230 Chamber Home Page" />
+    <title>Lampasas Chamber of Commerce website - Discover</title>
+    <meta name="description" content="WDD-230 Chamber Discover Page" />
     <meta name="author" content="Josh Woods" />
-    <meta property="og:title" content="Chamber Home Page" />
+    <meta property="og:title" content="Chamber Discover Page" />
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/2/22/Hostess_House_Lampasas_Texas.jpg"
-    />
-    <meta property="og:url" content="https://joshwoods1.github.io/wdd230/chamber/index.html">
+    <meta property="og:image"
+        content="https://upload.wikimedia.org/wikipedia/commons/2/22/Hostess_House_Lampasas_Texas.jpg" />
+    <meta property="og:url" content="https://joshwoods1.github.io/wdd230/chamber/discover.html">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/larger.css" />
-    <link rel="icon" href="images/lampasasFavicon.ico" type="image/x-icon" />  </head>
-  <body>
-    <header>
-      <h1>Lampasas Chamber of Commerce</h1>
-      <nav class="navbar">
-        <ul class="nav-menu">
-          <li><a href="index.html" class="navLink">Home</a></li>
-          <li><a href="discover.html" class="navLink">Discover</a></li>
-          <li><a href="join.html" class="navLink">Join</a></li>
-          <li><a href="directory.html" class="navLink">Directory</a></li>
-        </ul>
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
+    <link rel="stylesheet" href="styles/discover.css" /> <!-- Add new stylesheet for Discover page styles -->
+    <link rel="icon" href="images/lampasasFavicon.ico" type="image/x-icon" />
+</head>
 
-      </nav>
+<body>
+    <header>
+        <h1>Lampasas Chamber of Commerce</h1>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li><a href="index.html" class="navLink">Home</a></li>
+                <li><a href="discover.html" class="navLink">Discover</a></li>
+                <li><a href="join.html" class="navLink">Join</a></li>
+                <li><a href="directory.html" class="navLink">Directory</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
     </header>
     <main id="discover">
-      <aside class="sidebar">
-        <h2>Events</h2>
-          <p>Squared Straight</p>
-          <p>Pumking Patchs</p>
+        <aside class="sidebar">
+            <h2>Events</h2>
+            <p>Lampasas Business Expo - Nov 15</p>
+            <p>Holiday Parade - Dec 10</p>
 
-          <h2>Attractions</h2>
-          <p>Storm's Drive-In</p>
-          <p>Lampasas River</p>
-      </aside>
-      <div class="main-content">
-        <img src="https://placebear.com/350/360" alt="" loading="lazy" width="350" height="360">
-        <img src="https://placebear.com/351/360" alt="" loading="lazy" width="350" height="360">
-        <img src="https://placebear.com/350/362" alt="" loading="lazy" width="350" height="360">
-        <img src="https://placebear.com/359/360" alt="" loading="lazy" width="350" height="360">
-        <img src="https://placebear.com/355/360" alt="" loading="lazy" width="350" height="360">
-        <img src="https://placebear.com/357/360" alt="" loading="lazy" width="350" height="360">
-      </div>
+            <h2>Attractions</h2>
+            <p>Hanna Springs Sculpture Garden</p>
+            <p>Lampasas County Museum</p>
+
+            <div id="visitMessage"></div>
+        </aside>
+        <div class="main-content">
+            <img src="images/Downtown.jpg" alt="Lampasas Downtown" loading="lazy" height="350" width="auto">
+            <img src="images/hancock.jpg" alt="Hancock Springs Pool" loading="lazy" height="350">
+            <img src="images/Courthouse.jpg" alt="Lampasas County Courthouse" loading="lazy" height="350">
+            <img src="images/sunset.jpg" alt="Downtown Sunset" loading="lazy" height="350">
+            <img src="images/hostessHouse.jpg" alt="Historic Building" loading="lazy" height="350">
+            <img src="images/ChristmasEvent.jpg" alt="Local Event" loading="lazy" height="350">
+        </div>
     </main>
     <footer>
-      <p>Josh Woods - Chamber Project for WDD 230</p>
-      <p id="year"></p>
-      <p id="lastModified"></p>
+        <p>Josh Woods - Chamber Project for WDD 230</p>
+        <p id="year"></p>
+        <p id="lastModified"></p>
     </footer>
+    <script src="scripts/displayMessage.js"></script>
     <script src="scripts/getDate.js"></script>
     <script src="scripts/navBar.js"></script>
-  </body>
+    <script src="scripts/discover.js"></script>
+</body>
+
 </html>

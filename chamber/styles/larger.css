@@ -66,9 +66,16 @@
         flex-direction: column;
     }
 
-
-
- 
+    .main-content img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .main-content img:hover {
+        transform: scale(1.1);
+    }
 
 
 }
